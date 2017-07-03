@@ -1,12 +1,14 @@
-
+//interface decleration
 export interface Drivable {
 
+//member function decleration
     start();
     getprice();
     getposition();
 
 }
 
+//class implementing interface
 export class car implements Drivable {
 
 
